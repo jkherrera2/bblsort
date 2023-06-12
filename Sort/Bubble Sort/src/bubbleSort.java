@@ -8,7 +8,7 @@ import java.util.List;
 public class bubbleSort {
    public static void main(String[] args) throws Exception {
 
-		for(int trial = 1; trial <= 3; trial++){
+		for(int trial = 1; trial <= 20; trial++){
 			int[] array = readData();
 
 			long timeStart = System.nanoTime();
